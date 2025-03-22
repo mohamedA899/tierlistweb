@@ -1,0 +1,44 @@
+/* Basic styling for the tier list page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  .tier {
+    background-color: #fff;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+  }
+  
+  .tier h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5em;
+  }
+  
+  .tier-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+  }
+  
+  .tier-item {
+    background-color: #ddd;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+  }
+  
